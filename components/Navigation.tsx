@@ -25,7 +25,7 @@ export default function Navigation() {
         GYAT.FUN
       </Link>
 
-      <div className="flex items-center gap-4">
+      {/* <div className="flex items-center gap-4">
         <Link
           href="https://x.com/designoor_"
           target="_blank"
@@ -43,7 +43,7 @@ export default function Navigation() {
         <Button onClick={handleDonateClick} className="text-2xl h-10 bg-[#E90B83] text-white hover:bg-[#E90B83]/90 rounded-full pt-3 px-4">
           {buttonText}
         </Button>
-      </div>
+      </div> */}
     </nav>
   )
 }
